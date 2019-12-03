@@ -4,11 +4,14 @@
 @import 'settings';
 @import 'fonts';
 
-@import 'buttons';
 @import 'mixins';
+@import 'buttons';
 
+
+
+@import 'views/top_header';
 @import 'views/header';
 @import 'views/footer';
 
 @import 'views/main_home';
-@import 'views/about';
+@import 'views/about'
