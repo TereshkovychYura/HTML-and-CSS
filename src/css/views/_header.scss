@@ -1,0 +1,9 @@
+.image{
+    background-image: url(../../img/Bg_Dark2.svg);
+    height: 56px;
+}
+
+.text{
+    
+    @include font(20px,$font-thin,$bg-primary-3)
+}
