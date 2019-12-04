@@ -1,0 +1,26 @@
+.header {
+  .top--part {
+    background-color: $bg-primary-2;
+  }
+  .top--part_buttons {
+    @include font(20px, $font-regular, $stantart--color_1, 50);
+    text-decoration: none;
+    padding: 6px 20px;
+    display: inline-block;
+  }
+  .top--part_buttons:hover {
+    background-color: $bg-primary-3;
+    color: $bg-primary-2;
+  }
+  ul {
+    margin: 0;
+    padding-left: 0;
+  }
+  li {
+    list-style: none;
+    display: inline-block;
+  }
+  .main--part {
+    background-image: url();
+  }
+}
