@@ -21,6 +21,52 @@
     display: inline-block;
   }
   .main--part {
-    background-image: url();
+    background-image: url(../../img/Bg-main_header.svg);
+    background-size: cover;
+  }
+  .main--header_logo {
+    background: url(../../img/Logo.svg) no-repeat;
+    padding: 10px 0;
+    width: 100%;
+    display: block;
+    height: 77px;
+    margin: 25px 0;
+    display: block;
+  }
+  .header--1_rectangle {
+    box-shadow: 2px 4px 7px rgba(155, 182, 190, 0.75);
+    background-color: $bg-primary-3;
+    padding: 17px 38px;
+    &:after {
+      content: "";
+      display: block;
+      position: absolute;
+      bottom: 313px;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 16px 19px 0 0;
+      border-color: #caddea transparent;
+    }
+    &:before {
+      content: "";
+      display: block;
+      position: absolute;
+      background: 0 0;
+      left: 410px;
+      bottom: 313px;
+      box-shadow: 4px 4px 7px #9bb6be;
+      width: 3px;
+      height: 17px;
+      transform: rotate(50deg);
+    }
+  }
+  .header--1_font {
+    @include font(23px, $font-bold, $bg-primary-2, 700);
+    font-size: 32px;
+    line-height: 36px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 0;
   }
 }
