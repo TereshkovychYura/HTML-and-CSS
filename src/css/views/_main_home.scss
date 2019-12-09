@@ -1,0 +1,22 @@
+.main {
+  .main--order_part {
+    background-color: $btn-primary-2;
+    background-image: url(../../img/Bg2.png);
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    display: inline-block;
+    padding: 30px 0px;
+    height: 317px;
+  }
+  .main--header_2 {
+    box-shadow: 2px 4px 7px rgba(155, 182, 190, 0.75);
+    background-color: $bg-primary-3;
+    padding: 10px 38px;
+  }
+  .main--header_2_font {
+    @include font(23px, $font-bold, $bg-primary-2, 700);
+    font-size: 32px;
+    line-height: 36px;
+    text-transform: uppercase;
+  }
+}

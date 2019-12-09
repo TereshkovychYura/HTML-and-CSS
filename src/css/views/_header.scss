@@ -23,9 +23,8 @@
     }
   }
   .main--part {
-    @include font(22px, $font-medium, $stantart--color_2, 100);
+    font-family: $font-medium;
     background-image: url(../../img/Bg-main_header.svg);
-    background-size: cover;
     li {
       color: $bg-primary-2;
       margin-left: 35px;
@@ -45,10 +44,9 @@
     display: block;
     height: 83px;
     margin-top: 20px;
-    margin-bottom: 10px;
   }
   .main--header_links {
-    margin-bottom: 30px;
+    margin-bottom: 25px;
   }
   .main--header_buttons {
     text-decoration: none;
@@ -67,29 +65,6 @@
     box-shadow: 2px 4px 7px rgba(155, 182, 190, 0.75);
     background-color: $bg-primary-3;
     padding: 10px 38px;
-    /* &:after {
-      content: "";
-      display: block;
-      position: absolute;
-      bottom: 313px;
-      width: 0;
-      height: 0;
-      border-style: solid;
-      border-width: 16px 19px 0 0;
-      border-color: #caddea transparent;
-    }
-    &:before {
-      content: "";
-      display: block;
-      position: absolute;
-      background: 0 0;
-      left: 410px;
-      bottom: 313px;
-      box-shadow: 4px 4px 7px #9bb6be;
-      width: 3px;
-      height: 17px;
-      transform: rotate(50deg);
-    } */
   }
   .header--1_font {
     @include font(23px, $font-bold, $bg-primary-2, 700);
@@ -101,5 +76,6 @@
   .header--2_font {
     @include font(22px, $font-medium, $stantart--color_2, 700);
     margin-left: 40px;
+    margin-top: 0;
   }
 }
