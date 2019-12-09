@@ -16,28 +16,58 @@
     margin: 0;
     padding-left: 0;
   }
-  li {
-    list-style: none;
-    display: inline-block;
+  .wrapper--1 {
+    li {
+      list-style: none;
+      display: inline-block;
+    }
   }
   .main--part {
+    @include font(22px, $font-medium, $stantart--color_2, 100);
     background-image: url(../../img/Bg-main_header.svg);
     background-size: cover;
+    li {
+      color: $bg-primary-2;
+      margin-left: 35px;
+    }
+    li p {
+      color: $stantart--color_2;
+    }
+    padding: 0;
+    width: 100%;
+  }
+  .main--header_list {
+    margin-bottom: 40px;
   }
   .main--header_logo {
     background: url(../../img/Logo.svg) no-repeat;
-    padding: 10px 0;
     width: 100%;
     display: block;
-    height: 77px;
-    margin: 25px 0;
-    display: block;
+    height: 83px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .main--header_links {
+    margin-bottom: 30px;
+  }
+  .main--header_buttons {
+    text-decoration: none;
+    @include font(18px, $font-regular, $bg-primary-2, 150);
+    border: 1px solid $bg-primary-2;
+    padding: 5px;
+    width: 230px;
+    margin: 7px 15px;
+    display: inline-block;
+  }
+  .main--header_buttons:hover {
+    color: $stantart--color_1;
+    background-color: $bg-primary-2;
   }
   .header--1_rectangle {
     box-shadow: 2px 4px 7px rgba(155, 182, 190, 0.75);
     background-color: $bg-primary-3;
-    padding: 17px 38px;
-    &:after {
+    padding: 10px 38px;
+    /* &:after {
       content: "";
       display: block;
       position: absolute;
@@ -59,7 +89,7 @@
       width: 3px;
       height: 17px;
       transform: rotate(50deg);
-    }
+    } */
   }
   .header--1_font {
     @include font(23px, $font-bold, $bg-primary-2, 700);
@@ -67,6 +97,9 @@
     line-height: 36px;
     text-transform: uppercase;
     display: inline-block;
-    margin: 0;
+  }
+  .header--2_font {
+    @include font(22px, $font-medium, $stantart--color_2, 700);
+    margin-left: 40px;
   }
 }
