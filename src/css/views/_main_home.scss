@@ -6,17 +6,150 @@
     margin-top: 50px;
     display: inline-block;
     padding: 30px 0px;
-    height: 317px;
+  }
+  .main--header_2_arrow {
+    background-image: url(../../img/Arrow.svg);
+    background-repeat: no-repeat;
+    background-position-x: 650px;
   }
   .main--header_2 {
     box-shadow: 2px 4px 7px rgba(155, 182, 190, 0.75);
     background-color: $bg-primary-3;
-    padding: 10px 38px;
+    padding: 0px 38px;
+    margin: 0px;
+    margin-bottom: 30px;
   }
-  .main--header_2_font {
+  .main--header_2_font_1 {
     @include font(23px, $font-bold, $bg-primary-2, 700);
     font-size: 32px;
     line-height: 36px;
+    text-transform: uppercase;
+  }
+  .main--header_2_font_2 {
+    color: $btn-primary-1;
+    font-family: $font-bold;
+    font-size: 46px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: -2.42px;
+    padding-left: 350px;
+  }
+  .main--header_2_font_3 {
+    width: 61px;
+    height: 25px;
+    color: $btn-primary-1;
+    font-family: $font-bold;
+    font-size: 35px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  .main--header_2_font_4 {
+    width: 197px;
+    height: 16px;
+    color: $btn-primary-2;
+    font-family: $font-regular;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
+    padding-left: 10px;
+  }
+
+  .main--item {
+    padding: 5px 15px;
+
+    display: inline-block;
+
+    label {
+      color: $bg-primary-3;
+      font-family: $font-regular;
+      font-size: 15px;
+      font-weight: 700;
+      line-height: 20px;
+    }
+    select {
+      font-size: 15px;
+      font-weight: 300;
+      line-height: 20px;
+      background: $bg-primary-3;
+      border: none;
+      padding: 5px 15px;
+      width: 100%;
+    }
+  }
+  .main--item_font_1 {
+    /* Style for "Total pric" */
+    width: 95px;
+    height: 12px;
+    color: #ffffff;
+    font-family: $font-regular;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-right: 50px;
+  }
+  .main--item_font_2 {
+    width: 175px;
+    height: 36px;
+    color: $stantart--color_1;
+    font-family: $font-regular;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 44.72px;
+    text-transform: uppercase;
+  }
+  .main--item_font_3 {
+    width: 175px;
+    height: 36px;
+    font-family: $font-regular;
+    color: $stantart--color_1;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 44.72px;
+    text-transform: uppercase;
+  }
+  .main--item-order_now {
+    background-color: $btn-primary-1;
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  .main--item-order_now:hover {
+    background-color: $btn-primary-3;
+  }
+  .main--item-order_now-font {
+    color: $stantart--color_1;
+    font-family: $font-regular;
+    font-size: 26px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-left: 95px;
+  }
+  .main--read_more {
+    background-image: url(../../img/Bg3.png);
+    width: 100%;
+  }
+  .main--read_more-header_2 {
+    box-shadow: 2px 4px 7px rgba(155, 182, 190, 0.75);
+    background-color: $bg-primary-3;
+    padding: 5px;
+    padding-left: 100px;
+    margin: 0px;
+    margin-top: 30px;
+  }
+  p {
+    width: 1141px;
+    height: 103px;
+    color: $stantart--color_2;
+    font-family: $font-light;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .main--read_more-header_2-font {
+    @include font(28px, $font-bold, $bg-primary-2, 700);
+    /* Style for "Essay writ" */
     text-transform: uppercase;
   }
 }
