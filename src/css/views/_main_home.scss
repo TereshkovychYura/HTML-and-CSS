@@ -3,7 +3,6 @@
     background-color: $btn-primary-2;
     background-image: url(../../img/Bg2.png);
     background-repeat: no-repeat;
-    margin-top: 50px;
     display: inline-block;
     padding: 30px 0px;
   }
@@ -78,10 +77,7 @@
     }
   }
   .main--item_font_1 {
-    /* Style for "Total pric" */
-    width: 95px;
-    height: 12px;
-    color: #ffffff;
+    color: $stantart--color_1;
     font-family: $font-regular;
     font-size: 20px;
     font-weight: 400;
@@ -89,18 +85,13 @@
     padding-right: 50px;
   }
   .main--item_font_2 {
-    width: 175px;
-    height: 36px;
     color: $stantart--color_1;
     font-family: $font-regular;
     font-size: 48px;
     font-weight: 400;
-    line-height: 44.72px;
     text-transform: uppercase;
   }
   .main--item_font_3 {
-    width: 175px;
-    height: 36px;
     font-family: $font-regular;
     color: $stantart--color_1;
     font-size: 27px;
@@ -128,6 +119,7 @@
     padding-left: 95px;
   }
   .main--read_more {
+    background-color: $bg-primary-4;
     background-image: url(../../img/Bg3.png);
     width: 100%;
   }
@@ -139,7 +131,7 @@
     margin: 0px;
     margin-top: 30px;
   }
-  p {
+  .main--read_more_text {
     width: 1141px;
     height: 103px;
     color: $stantart--color_2;
@@ -149,7 +141,29 @@
   }
   .main--read_more-header_2-font {
     @include font(28px, $font-bold, $bg-primary-2, 700);
-    /* Style for "Essay writ" */
     text-transform: uppercase;
+  }
+  .main--read_more-header_4-font {
+    @include font(18px, $font-bold, $bg-primary-2, 500);
+    line-height: 22px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .main--read_more_description_1 {
+    @include font(16px, a, $stantart--color_2, 400);
+    margin-top: 50px;
+  }
+  .main--read_more_description_2 {
+    @include font(16px, a, $stantart--color_2, 400);
+  }
+  .main--read_more_description_3 {
+    @include font(16px, a, $stantart--color_2, 400);
+  }
+  .main--read_more_description_4 {
+    @include font(16px, a, $stantart--color_2, 400);
+    margin-top: 45px;
+  }
+  .main--read_more-descs:hover {
+    background-color: $stantart--color_1;
   }
 }
