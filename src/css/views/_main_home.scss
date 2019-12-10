@@ -121,7 +121,10 @@
   .main--read_more {
     background-color: $bg-primary-4;
     background-image: url(../../img/Bg3.png);
-    width: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% -140px;
+    background-size: 102%;
+    padding-bottom: 50px;
   }
   .main--read_more-header_2 {
     box-shadow: 2px 4px 7px rgba(155, 182, 190, 0.75);
@@ -163,7 +166,134 @@
     @include font(16px, a, $stantart--color_2, 400);
     margin-top: 45px;
   }
-  .main--read_more-descs:hover {
+  .main--read_more-descs_1 {
+    background-image: url(../../img/Element1.svg);
+    background-repeat: no-repeat;
+    display: block;
+    height: 110px;
+    width: 110px;
+    margin: 10px 73px;
+  }
+  .main--descs_1 {
+    padding-bottom: 20px;
+  }
+  .main--descs_1:hover {
     background-color: $stantart--color_1;
+  }
+  .main--descs_1:hover span {
+    background-image: url(../../img/Element1_dark.svg);
+  }
+  .main--read_more-descs_2 {
+    background-image: url(../../img/Element2.svg);
+    background-repeat: no-repeat;
+    display: block;
+    height: 110px;
+    width: 110px;
+    margin: 10px 73px;
+  }
+  .main--descs_2 {
+    padding-bottom: 20px;
+  }
+  .main--descs_2:hover {
+    background-color: $stantart--color_1;
+  }
+  .main--descs_2:hover span {
+    background-image: url(../../img/Element2_dark.svg);
+  }
+  .main--read_more-descs_3 {
+    background-image: url(../../img/Element3.svg);
+    background-repeat: no-repeat;
+    display: block;
+    height: 110px;
+    width: 110px;
+    margin: 10px 73px;
+  }
+  .main--descs_3 {
+    ul {
+      padding: 0;
+      margin-left: 15px;
+    }
+    padding-bottom: 20px;
+  }
+  .main--descs_3:hover {
+    background-color: $stantart--color_1;
+  }
+  .main--descs_3:hover span {
+    background-image: url(../../img/Element3_dark.svg);
+  }
+  .main--read_more-descs_4 {
+    background-image: url(../../img/Element4.svg);
+    background-repeat: no-repeat;
+    display: block;
+    height: 110px;
+    width: 110px;
+    margin: 10px 73px;
+  }
+  .main--descs_4 {
+    ul {
+      padding: 0;
+      margin-left: 15px;
+    }
+    padding-bottom: 20px;
+  }
+  .main--descs_4:hover {
+    background-color: $stantart--color_1;
+  }
+  .main--descs_4:hover span {
+    background-image: url(../../img/Element4_dark.svg);
+  }
+  .main--btn_read_more_1 {
+    background-color: $btn-primary-2;
+    width: 100%;
+    height: 40px;
+    margin-top: 127px;
+    text-decoration: none;
+    display: inline-block;
+    color: $stantart--color_1;
+    font-family: $font-regular;
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 75px;
+    padding-top: 5px;
+  }
+  .main--btn_read_more_2 {
+    background-color: $btn-primary-2;
+    width: 100%;
+    height: 40px;
+    margin-top: 40px;
+    text-decoration: none;
+    display: inline-block;
+    color: $stantart--color_1;
+    font-family: $font-regular;
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 75px;
+    padding-top: 5px;
+  }
+  .main--btn_read_more_3 {
+    background-color: $btn-primary-2;
+    width: 100%;
+    height: 40px;
+    margin-top: 60px;
+    text-decoration: none;
+    display: inline-block;
+    color: $stantart--color_1;
+    font-family: $font-regular;
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 75px;
+    padding-top: 5px;
+  }
+  .main--btn_read_more_1:hover {
+    background-color: $bg-primary-3;
+    color: $bg-primary-2;
+  }
+  .main--btn_read_more_2:hover {
+    background-color: $bg-primary-3;
+    color: $bg-primary-2;
+  }
+  .main--btn_read_more_3:hover {
+    background-color: $bg-primary-3;
+    color: $bg-primary-2;
   }
 }
